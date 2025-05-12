@@ -125,3 +125,10 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+.container img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
