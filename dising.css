@@ -126,9 +126,10 @@ footer a:hover {
   text-decoration: underline;
 }
 
-.container img {
-    max-width:20px;
-    max-height:15px;
-    width: auto;
-    height: auto;
+img {
+border: 2px solid blue;
+height: 300px;
+width: 600px;
+border-radius: 50%;
+filter: sepia(100%);
 }
