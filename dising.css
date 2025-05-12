@@ -142,12 +142,9 @@ margin-right: 10px;
 }
 
 .logo-container img {
-  height: 200px;
+  height: 200px; /* ou ajuste como preferir */
   width: auto;
-  vertical-align: middle;
-  position: relative;
-  top: -4px;
-  margin: 0;
+  margin-bottom: 4px; 
 }
 
 .logo-container h1 {
