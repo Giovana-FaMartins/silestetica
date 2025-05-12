@@ -136,15 +136,14 @@ margin-right: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 10px;
+  gap: 10px; /* Espaçamento mais controlado entre imagem e texto */
   margin-bottom: 20px;
 }
 
 .logo-container img {
-  height: 200px; /* ou ajuste como preferir */
+  height: 120px; /* Altura reduzida */
   width: auto;
-  margin-bottom: 4px; 
+  margin: 0;
 }
 
 .logo-container h1 {
