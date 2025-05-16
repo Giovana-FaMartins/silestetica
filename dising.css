@@ -76,12 +76,12 @@ section {
 }
 
 .about, .gallery, .testimonials, .contact {
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 .about h2, .gallery h2, .testimonials h2, .contact h2 {
   font-size: 2.2em;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -185,3 +185,40 @@ margin-right: 10px;
   font-size: 2.5em;
   margin: 0;
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #FDE1D3;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+th,
+td {
+  padding: 0.85rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid #e1cabf;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+th {
+  background-color: #FDE1D3;
+  font-weight: 600;
+  color: #1e293b;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+a {
+  color: black
+}
+tr,
+td {
+  color: black;
+}
+
+/* tr:hover {
+  background-color: #f9fafb;
+} */
